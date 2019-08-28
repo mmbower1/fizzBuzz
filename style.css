@@ -1,0 +1,17 @@
+#title {
+	/* margin: 0 auto; */
+	font: red;
+}
+
+#increment,
+#decrement {
+	border-radius: 50px;
+}
+
+.container {
+	border: 3px solid green;
+	font-family: 'Montserrat';
+	margin: 0 auto;
+	padding: 20px;
+	width: 50%;
+}
