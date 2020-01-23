@@ -15,7 +15,7 @@ function fizzBuzz(n) {
   for(var i = 0; i <= n; i++) {
     if (i % 5 === 0 && i % 3 === 0) {
       fizzBuzz += 'fizzBuzz'; 
-      wordBox.innerHTML += ' fizzBuzz ';
+      wordBox.innerHTML += ' FIZZBUZZ ';
       console.log('fizzBuzz');
     } else if (i % 3 === 0) {
       fizzBuzz += 'Buzz';
@@ -23,7 +23,7 @@ function fizzBuzz(n) {
       console.log('Buzz')
     } else if (i % 5 === 0) {
       fizzBuzz += 'fizz';
-      wordBox.innerHTML += ' fizz ';
+      wordBox.innerHTML += ' Fizz ';
       console.log('fizz');
     } else {
       // console.log(i)
@@ -43,4 +43,9 @@ function my_decrement() {
   currentValue--;
   number.innerHTML = currentValue;
   fizzBuzz(currentValue);
+}
+
+function reverseString(str) {
+  var str = "";
+  return str.split("").reverse().join("");
 }
